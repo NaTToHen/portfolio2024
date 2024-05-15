@@ -1,0 +1,54 @@
+#sobre {
+  margin-top: 200px;
+  padding: 0 10%;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  color: #0085FF;
+  font-size: 2.5rem;
+}
+
+.containerSobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.textoSobre {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.descSobre {
+  color: #898989;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.certificacao {
+  color: #898989;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.links a:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.links a img:hover {
+  fill: #0085FF;
+}

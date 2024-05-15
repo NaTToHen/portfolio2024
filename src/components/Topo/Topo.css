@@ -1,0 +1,25 @@
+.secTopo {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+  padding-top: 100px;
+  width: 100%;
+  height: 80vh;
+
+  background: url("../../img/fundoTopo.svg");
+  background-size: cover;
+
+  justify-content: center;
+}
+
+.h2Topo {
+  color: #898989;
+  font-size: 2.6rem;
+  margin: 0px;
+}
+
+.h1Topo {
+  color: #0085FF;
+  font-size: 3.2rem;
+  margin: 0px;
+}
