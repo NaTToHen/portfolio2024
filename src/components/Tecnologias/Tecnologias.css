@@ -1,0 +1,22 @@
+#tecnologias {
+   margin-bottom: 150px;
+}
+
+.tecnologiasGrid {
+   padding: 0 10%;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 60px;
+   justify-items: center;
+   align-items: center;
+}
+
+.tecnologiasGrid img {
+   padding: 30px;
+   height: 250px;
+   width: 250px;
+   background-image: url(../../img/fundoImg.svg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}

@@ -1,0 +1,79 @@
+#contato {
+   padding: 0 10%;
+   margin-bottom: 150px;
+}
+
+.contatoContainer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.textosContato {
+   display: flex;
+   margin-top: -40px;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.textosContato h1 {
+   color: #ffffff;
+   font-size: 2.5rem;
+}
+
+.textosContato h2 {
+   color: #898989;
+   font-size: 1.2rem;
+   font-weight: 500;
+}
+
+.textosContato strong {
+   color: #ffffff;
+}
+
+.textosContato a {
+   text-decoration: none;
+   color: #898989;
+}
+
+.textosContato a:hover {
+   color: #ffffff;
+}
+
+.formContato {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 15px;
+   width: 45%;
+}
+
+.formContato input, textarea {
+   background: #181A1B;
+   color: #898989;
+   font-size: 1rem;
+   outline: 2px solid #898989;
+   max-width: 100%;
+   max-height: 140px;
+   min-height: 40px;
+   padding: 10px;
+   border: none;
+}
+
+.formContato input:focus, textarea:focus {
+   outline: 2px solid #0085FF;
+}
+
+.formContato button {
+   background: #0085FF;
+   outline: 2px solid #0085FF;
+   font-size: 1.2rem;
+   color: #ffffff;
+   border: none;
+   padding: 10px;
+   cursor: pointer
+}
+
+.formContato button:hover {
+   background: #00529f;
+}

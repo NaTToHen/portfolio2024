@@ -1,0 +1,52 @@
+.cardProjeto {
+   position: relative;
+   margin: 0;
+   padding: 0;
+   color: white;
+   transition: ease-in-out 0.2s;
+}
+
+.cardProjeto:hover .infoProjeto {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 10px;
+}
+
+.cardProjeto:hover {
+   outline: 4px solid #0085FF;
+   transform: scale(1.01);
+}
+
+.infoProjeto {
+   position: absolute;
+   display: none;
+   bottom: 0;
+   padding: 20px;
+   width: 100%;
+   background: #171717;
+   transition: ease-in-out 0.2s;
+}
+
+.linksProjeto {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 10px;
+}
+
+.tagsProjeto {
+   display: flex;
+   gap: 5px;
+}
+
+.tagProjeto {
+   color: white;
+   padding: 5px 10px;
+   background: #2E2E2E;
+}
+
+.links {
+   display: flex;
+   gap: 10px;
+}
