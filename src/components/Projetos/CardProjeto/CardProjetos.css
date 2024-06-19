@@ -50,3 +50,29 @@
    display: flex;
    gap: 10px;
 }
+
+@media screen and (max-width: 768px) {
+   .cardProjeto {
+      width: 95%;
+   }
+
+   .imgProjeto {
+      width: 100%;
+   }
+
+   .infoProjeto {
+      padding: 5px;
+   }
+
+   .linksProjeto {
+      display: none;
+   }
+
+   .infoProjeto {
+      text-overflow: clip;
+   }
+
+   .cardProjeto:hover {
+      transform: scale(1);
+   }
+}

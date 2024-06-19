@@ -30,3 +30,14 @@ nav {
     color: #979797;
   }
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    justify-content: center;
+    position: relative;
+  }
+
+  nav {
+    display: none;
+  }
+}

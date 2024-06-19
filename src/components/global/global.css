@@ -5,6 +5,12 @@
   font-family: "Jost", sans-serif;
 }
 
+html body {
+  overflow-x: hidden;
+}
+
 body {
-  background: #121212;
+  background: url(../../img/fotoFundo2.png), #121212;
+  background-repeat: no-repeat;
+  overflow-x: none;
 }

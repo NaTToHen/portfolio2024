@@ -20,3 +20,20 @@
    background-position: center;
    background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 768px) {
+   .tecnologiasGrid {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      flex-wrap: wrap;
+      gap: 20px;
+      row-gap: 20px;
+   }
+
+   .tecnologiasGrid img {
+      height: 120px;
+      width: 120px;
+   }
+}

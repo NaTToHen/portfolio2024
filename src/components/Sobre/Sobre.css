@@ -53,3 +53,21 @@
 .links a img:hover {
   fill: #0085FF;
 }
+
+@media screen and (max-width: 768px) {
+  .containerSobre {
+    flex-direction: column;
+  }
+
+  .textoSobre {
+    text-justify: auto;
+  }
+
+  .descSobre {
+    font-size: 1rem;
+  }
+
+  .imgSobre {
+    width: 90%;
+  }
+}

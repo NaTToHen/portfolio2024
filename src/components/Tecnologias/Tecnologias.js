@@ -11,7 +11,7 @@ import logoTS from '../../img/logo_TypeScript.svg'
 
 function Tecnologias() {
    return (
-      <section id="tecnologias">
+      <section id="tecnologias" className='hidden'>
          <h1 className="titulo">Tecnologias</h1>
          <div className="tecnologiasGrid">
             <img src={logoJS} alt="JavaScript" />

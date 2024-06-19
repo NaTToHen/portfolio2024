@@ -10,7 +10,7 @@ import imgValorantStash from "../../img/projetosImg/valorantStash.svg"
 function Projetos() {
 
    return (
-      <section id="projetos">
+      <section id="projetos" className="hidden">
          <h1 className="titulo">Projetos</h1>
          <div className="projetosGrid">
             <CardProjetos
@@ -61,7 +61,7 @@ function Projetos() {
                desc="Biblioteca de skin do jogo Valorant, site inspirado no site https://csgostash.com/, ainda em desenvolvimento, a API do site sera publica."
                linkGit="https://github.com/NaTToHen/RouteLog"
                linkSite={"https://valostash.com"}
-               tags={['react', 'Laravel', 'PHP', 'MySQL', 'AWS S3']}
+               tags={['React', 'Laravel', 'PHP', 'MySQL', 'AWS S3']}
             />
          </div>
       </section>

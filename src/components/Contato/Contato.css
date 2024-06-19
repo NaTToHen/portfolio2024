@@ -5,6 +5,8 @@
 
 .contatoContainer {
    display: flex;
+   padding: 0 10%;
+   margin-bottom: 100px;
    justify-content: space-between;
    align-items: center;
 }
@@ -76,4 +78,29 @@
 
 .formContato button:hover {
    background: #00529f;
+}
+
+@media screen and (max-width: 768px) {
+   .contatoContainer {
+      flex-direction: column;
+   }
+
+   .formContato {
+      width: 90%;
+   }
+
+   .textosContato {
+      width: 90%;
+      margin-bottom: 50px;
+   }
+
+   .textosContato h1 {
+      font-size: 2rem;
+   }
+
+   .textosContato h2 {
+      font-size: 0.8rem;
+      text-overflow: ellipsis;
+      max-width: 90%;
+   }
 }
