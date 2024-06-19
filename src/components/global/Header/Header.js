@@ -6,10 +6,10 @@ function Header() {
     <header className="header">
       <img src={logo} alt="logo" className="imgLogo"/>
       <nav className="navMenu">
-        <a href="/" className="navLink">Inicio</a>
-        <a href="/" className="navLink">Sobre</a>
-        <a href="/" className="navLink">Projetos</a>
-        <a href="/" className="navLink">Contato</a>
+        <a href="#topo" className="navLink">Inicio</a>
+        <a href="#sobre" className="navLink">Sobre</a>
+        <a href="#projetos" className="navLink">Projetos</a>
+        <a href="#contato" className="navLink">Contato</a>
       </nav>
     </header>
   )
