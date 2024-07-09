@@ -40,14 +40,6 @@ function Projetos() {
             />
 
             <CardProjetos
-               imgUrl={imgRouteLog}
-               nome="RouteLog Transportes"
-               desc="Sistema de gerenciamento logistico, feito com intuito academico, atualmente o seu desenvolvimento esta travado."
-               linkGit="https://github.com/NaTToHen/RouteLog"
-               tags={['Laravel', 'PHP', 'JS', 'MySQL']}
-            />
-
-            <CardProjetos
                imgUrl={imgDevJobs}
                nome="DevJobs"
                desc="Site de vagas de emprego para desenvolvedores. Foi desenvolvido para se aprofundar em desenvolvimento Web. O site possui cadastro de vagas e empresas, possui pesquisa e opção de se candidatar ás vagas"
@@ -62,6 +54,14 @@ function Projetos() {
                linkGit="https://github.com/NaTToHen/RouteLog"
                linkSite={"https://valostash.com"}
                tags={['React', 'Laravel', 'PHP', 'MySQL', 'AWS S3']}
+            />
+
+            <CardProjetos
+               imgUrl={imgRouteLog}
+               nome="RouteLog - Gerenciamento de rotas"
+               desc="Sistema de gerenciamento logistico, atualmente em desenvolvimento inicial."
+               linkGit="https://github.com/NaTToHen/RouteLog"
+               tags={['Laravel', 'PHP', 'TS', 'React', 'Electron', 'PostgresSQL']}
             />
          </div>
       </section>
